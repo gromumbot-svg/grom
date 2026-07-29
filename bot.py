@@ -27,7 +27,7 @@ import string
 # иначе используются значения по умолчанию (можно просто запустить: python bot.py)
 API_ID = os.environ.get("TELEGRAM_API_ID", "30829847")
 API_HASH = os.environ.get("TELEGRAM_API_HASH", "ee19553ced2ae8139ce441c423ec7a19")
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8543625474:AAETAQV_np80HrZ6ma_fYtc6tjhN723bnQ8")
+TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8979974442:AAEbUzTcOacfE7LwT-gqk87t9o0rP4oSUUw")
 
 if not API_ID or not API_HASH:
     raise RuntimeError(
@@ -39,7 +39,7 @@ if not TOKEN:
 
 API_ID = int(API_ID)
 
-ADMIN_IDS = [5454585281]
+ADMIN_IDS = [7584816669]
 
 RANK_NAMES = {1: "Стажёр", 2: "Админ", 3: "Старший админ", 4: "Зам"}
 RANK_TRAINEE = 1
